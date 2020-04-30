@@ -1,0 +1,35 @@
+@media (max-width:1500px) {
+        .reset{
+            margin-top: 70px;
+        }
+        .carta {
+            --width: 100px;
+            margin: 7px;
+        }
+        .carta::before {
+            border: 3px solid #3f1207;
+        }
+        .carta::after {
+            border: 3px solid #072f3f;
+        }
+}
+@media (max-width:700px) {
+    .reset{
+        margin-top: 50px;
+    }
+    .carta {
+        --width: 80px;
+        margin: 5px;
+    }
+    .carta::before {
+        border: 2px solid #3f1207;
+    }
+    .carta::after {
+        border: 2px solid #072f3f;
+    }
+}
+@media(max-width:450px) {
+    body {
+        font-size: 14px;
+    }
+}
